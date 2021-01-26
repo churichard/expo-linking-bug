@@ -1,6 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import * as Linking from 'expo-linking';
+
+const prefix = Linking.createURL('/');
 
 export default function App() {
   return (
